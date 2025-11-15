@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+    <title>World Clock</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>World Clock</h1>
+        <p>Select a city to see the current time:</p>
+        <select id="city">
+            <option value="">Select a city...</option>
+            <option value="current">Current Location</option>
+            <option value="America/Los_Angeles">Los Angeles</option>
+            <option value="Europe/Paris">Paris</option>
+            <option value="Asia/Moscow">Moscow</option>
+
+        </select>
+        <div id="cities">
+            <div class="city" id="new-york">
+                <div>
+                <h2>New York</h2>
+                <div class="time"></div>
+                </div>
+                <div class="date" ></div>
+            </div>
+            <div class="city" id="london">
+                <div>
+                <h2>London</h2>
+                <div class="time"></div>
+                </div>
+                <div class="date" ></div>
+            </div>
+            <div class="city" id="tokyo">
+                <div>
+                <h2>Tokyo</h2>
+                <div class="time"></div>
+                </div>
+                <div class="date" ></div>
+            </div>
+        </div>
+        </div>
+        
+    <footer>This project was created with ❤️ by <strong>Mabatho Lesite</strong></footer>
+    <script src="index.js"></script>
+</body>
+</html>

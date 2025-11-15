@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #909d4fc6;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #71893d7a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+p {
+    text-align: center;
+    color: #666;
+}
+.city {
+    margin-top: 30px;
+    text-align: center;
+}
+.timezone-form {
+    margin-top: 20px;
+    text-align: center;
+}
+.date-time-display {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.city .clock {
+    margin-bottom: 20px;
+}
+.city h2 {
+    margin-bottom: 10px;
+    color: #444;
+}
+.city .time {
+    font-size: 48px;
+    color: #222;
+}
+.city .date {
+    font-size: 24px;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#time-display {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #555;
+}
+#date-display {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #777;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+button:disabled:hover {
+    background-color: #ccc;
+}
+button:enabled {
+    background-color: #28a745;
+}
+button:enabled:hover {
+    background-color: #218838;
+}
+button:enabled:active {
+    background-color: #1e7e34;
+}
+button:disabled:active {
+    background-color: #ccc;
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+button:disabled:focus {
+    outline: none;
+    box-shadow: none;
+}
+button:enabled:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
+button:enabled:active:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(30, 126, 52, 0.5);
+}
+button:disabled:active:focus {
+    outline: none;
+    box-shadow: none;
+}
+button:enabled:hover:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(33, 136, 56, 0.5);
+}
+button:disabled:hover:focus {
+    outline: none;
+    box-shadow: none;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer a:visited {
+    color: #ccc;
+}
+footer a:active {
+    color: #999;
+}
+footer a:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+footer a:hover:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+footer a:visited:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.5);
+}
+footer a:active:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(153, 153, 153, 0.5);
+}
+footer a:hover:active {
+    color: #999;
+}
+footer a:visited:active {
+    color: #999;
+}
+footer a:hover:visited {
+    color: #ccc;
+}
+footer a:visited:hover {
+    color: #ccc;
+}
+footer a:focus:visited {
+    outline: none;
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.5);
+}
+footer a:focus:hover {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+footer a:focus:active {
+    outline: none;
+    box-shadow: 0 0 5px rgba(153, 153, 153, 0.5);
+}
+footer a:visited:focus:hover {
+    outline: none;
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.5);
+}
+footer a:visited:focus:active {
+    outline: none;
+    box-shadow: 0 0 5px rgba(153, 153, 153, 0.5);
+}
+footer a:hover:focus:active {
+    outline: none;
+    box-shadow: 0 0 5px rgba(153, 153, 153, 0.5);
+}
+footer a:visited:hover:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(204, 204, 204, 0.5);
+}
